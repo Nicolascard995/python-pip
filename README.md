@@ -48,6 +48,7 @@ bash
 Copy code
 git clone
 cd app
+python3 -m venv pip_ev
 source pip_ev/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
